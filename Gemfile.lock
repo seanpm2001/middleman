@@ -30,7 +30,7 @@ PATH
       servolux
       tilt (~> 2.0.9)
       toml
-      uglifier (~> 3.0)
+      uglifier (>= 3, < 5)
       webrick
 
 GEM
@@ -206,7 +206,7 @@ GEM
       parslet (>= 1.8.0, < 3.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    uglifier (3.2.0)
+    uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.0.0)
     webrick (1.8.1)

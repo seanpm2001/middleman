@@ -13,7 +13,7 @@ jobs:
         experimental: [true, true, true, false, false, false]
     continue-on-error: ${{ matrix.experimental }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
